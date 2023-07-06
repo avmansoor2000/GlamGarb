@@ -4,7 +4,7 @@ const productModel = require("../models/productSchema")
 const categoryModel = require('../models/categorySchema')
 const bannerModel = require('../models/bannerSchema')
 const orderModel = require('../models/orderSchema')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 
 module.exports = {
 

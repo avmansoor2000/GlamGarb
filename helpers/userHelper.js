@@ -1,4 +1,4 @@
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 const userModel = require('../models/userSchema');
 const productSchema = require('../models/productSchema');
 // const user = require('../../models/user');
